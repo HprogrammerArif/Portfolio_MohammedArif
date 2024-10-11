@@ -5,9 +5,9 @@ import Navbar from "../components/Navbar";
 
 const Main = () => {
   return (
-    <div>
+    <div className="bg-[#0f172a]">
      <Navbar/>
-     <div className='pt-6 min-h-[calc(100vh-98px)]'>
+     <div className='pt-6 container mx-auto min-h-[calc(100vh)] '>
         <Outlet />
       </div>
      <Footer/>

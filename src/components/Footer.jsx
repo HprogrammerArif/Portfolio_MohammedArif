@@ -3,7 +3,7 @@ import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="bg-slate-900 text-[#94A3B8] py-10 px-6 md:px-14">
+    <footer className="bg-[#131e37] text-[#94A3B8] py-10 mt-16 px-6 md:px-14">
       <div className="max-w-[1450px] mx-auto flex justify-between ">
        
         {/* Footer Logo and About Section */}

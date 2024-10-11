@@ -7,6 +7,7 @@ import Services from "../pages/Services";
 import Showcase from "../pages/Showcase";
 import Reviews from "../pages/Reviews";
 import Contact from "../pages/Contact";
+import HomePage2 from "../pages/HomePage2";
 
 const router = createBrowserRouter([
   {
@@ -15,6 +16,7 @@ const router = createBrowserRouter([
     children: [
       {
         index: true,
+        //element: <HomePage2/>
         element: <Home/>
       },
       {
