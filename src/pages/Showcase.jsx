@@ -7,8 +7,8 @@ const Showcase = () => {
       <div className="grid grid-cols-1 p-2 m-2 lg:grid-cols-3 gap-8 md:grid-cols-2">
         <ShowCaseCard
           img={img}
-          title={`potfolio`}
-          tech1={`javascript (ES6+)`}
+          title={`potfolio..`}
+          tech1={`javascript. (ES6+)`}
           tech2={`react js`}
           tech3={`tailwind css`}
           tech4={`tailwind css`}
