@@ -33,14 +33,14 @@ const Navbar = () => {
             <Link to="/showcase">Showcase</Link>
           </Link>
           <li className={`cursor-pointer lg:inline-block border-b border-slate-600 lg:border-none text-sm md:text-md ${
-        location.pathname === '/contact' ? 'text-[#0ea5e9]' : ''
-      }`}>
-            <Link to="/contact">Client Reviews</Link>
-          </li>
-          <li className={`cursor-pointer lg:inline-block border-b border-slate-600 lg:border-none text-sm md:text-md ${
         location.pathname === '/reviews' ? 'text-[#0ea5e9]' : ''
       }`}>
-            <Link to="/reviews">Contact Me</Link>
+            <Link to="/reviews">Client Reviews</Link>
+          </li>
+          <li className={`cursor-pointer lg:inline-block border-b border-slate-600 lg:border-none text-sm md:text-md ${
+        location.pathname === '/contact' ? 'text-[#0ea5e9]' : ''
+      }`}>
+            <Link to="/contact">Contact Me</Link>
           </li>
         </ul>
       </div>

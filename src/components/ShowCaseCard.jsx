@@ -20,7 +20,7 @@ const ShowCaseCard = ({
     <div className=" relative max-w-sm">
       <div />
       <div
-        className="relative shadow-xl w-full h-full  px-4 py-8 overflow-hidden flex flex-col justify-end items-start"
+        className="relative shadow-xl w-full h-full  px-2 py-3 overflow-hidden flex flex-col justify-end items-start"
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
       >
@@ -31,7 +31,7 @@ const ShowCaseCard = ({
             baseHue={120}
             className="w-full h-full"
           >
-            <img src={img} className="w-full h-full object-cover" />
+           <img src={img} className="w-full h-[350px] object-center" />
 
             {isHovered && (
               <div className="absolute inset-0 bg-black bg-opacity-70 flex flex-col text-white p-4 transition-opacity duration-300 ease-in-out">

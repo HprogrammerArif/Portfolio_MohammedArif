@@ -2,6 +2,9 @@ import { div } from "framer-motion/client";
 import img from "../assets/images/1.jpg";
 import About from "./About";
 import Services from "./Services";
+import Showcase from "./Showcase";
+import Contact from "./Contact";
+import Reviews from "./Reviews";
 const Home = () => {
   return (
     <div>
@@ -36,6 +39,9 @@ const Home = () => {
       </div>
       <About />
       <Services />
+      <Showcase/>
+      <Reviews/>
+      <Contact/>
     </div>
   );
 };
