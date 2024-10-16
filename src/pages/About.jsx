@@ -1,5 +1,5 @@
 import { Button } from "../components/ui/moving-border";
-import img from "../assets/images/1.jpg";
+import img from "../assets/images/pic2.jpg";
 import { FaBuromobelexperte,  FaCheckSquare } from "react-icons/fa";
 
 const About = () => {
@@ -27,12 +27,12 @@ const About = () => {
 
         <div className="container w-[90%] ml-8 pl-6 col-span-2">
           <p className="text-left text-[1.1rem] pt-3 pb-8 text-slate-200 md:text-left lg:text-xl">
-            Hello! My name is Shipon islam. I'm a full-stack web developer who
+            Hello! My name is Mohammed Arif. I'm a MERN stack developer who
             loves to create amazing user experiences. I specialize in using the
             latest technologies like JavaScript, React.js, Next.js, Tailwind
             CSS, Node.js, Express.js, MongoDB, and Firebase to build robust and
             scalable web applications from scratch. <br /> <br />
-            I've been working in the tech industry for several years, and I have
+            I've been working in the tech industry over the years, and I have
             a lot of experience building web applications. I use React.js and
             Next.js to create responsive and dynamic user interfaces that are
             easy to use. I also use Tailwind CSS to make your website look
@@ -73,12 +73,9 @@ const About = () => {
               </div>
               <div className="flex gap-2 items-center mb-2">
                 <FaCheckSquare />
-                <p className="text-slate-200">node js</p>
+                <p className="text-slate-200">React js</p>
               </div>
-              <div className="flex gap-2 items-center mb-2">
-                <FaCheckSquare />
-                <p className="text-slate-200">firebase</p>
-              </div>
+              
               <div className="flex gap-2 items-center mb-2">
                 <FaCheckSquare />
                 <p className="text-slate-200">mongo db</p>
@@ -86,17 +83,21 @@ const About = () => {
               <div className="flex gap-2 items-center mb-2">
                 <FaCheckSquare />
                 <p className="text-slate-200">tailwind css</p>
+              </div>
+              <div className="flex gap-2 items-center mb-2">
+                <FaCheckSquare />
+                <p className="text-slate-200">TypeScript</p>
               </div>
             </div>
 
             <div>
-              <div className="flex gap-2 items-center mb-2">
+            <div className="flex gap-2 items-center mb-2">
                 <FaCheckSquare />
-                <p className="text-slate-200">JavaScript (ES6+)</p>
+                <p className="text-slate-200">Node js</p>
               </div>
               <div className="flex gap-2 items-center mb-2">
                 <FaCheckSquare />
-                <p className="text-slate-200">node js</p>
+                <p className="text-slate-200">Express js</p>
               </div>
               <div className="flex gap-2 items-center mb-2">
                 <FaCheckSquare />
@@ -104,11 +105,11 @@ const About = () => {
               </div>
               <div className="flex gap-2 items-center mb-2">
                 <FaCheckSquare />
-                <p className="text-slate-200">mongo db</p>
+                <p className="text-slate-200">Bootstrap</p>
               </div>
               <div className="flex gap-2 items-center mb-2">
                 <FaCheckSquare />
-                <p className="text-slate-200">tailwind css</p>
+                <p className="text-slate-200">Next Js</p>
               </div>
             </div>
           </div>
@@ -132,7 +133,7 @@ const About = () => {
             <div>
               <div className="flex gap-2 items-center mb-2">
                 <FaCheckSquare />
-                <p className="text-slate-200">2year+ experience</p>
+                <p className="text-slate-200">1year+ coding experience</p>
               </div>
               <div className="flex gap-2 items-center mb-2">
                 <FaCheckSquare />
@@ -140,16 +141,17 @@ const About = () => {
               </div>
               <div className="flex gap-2 items-center mb-2">
                 <FaCheckSquare />
-                <p className="text-slate-200">100% error free</p>
+                <p className="text-slate-200">Dedication & Commitment</p>
               </div>
               <div className="flex gap-2 items-center mb-2">
                 <FaCheckSquare />
-                <p className="text-slate-200">requirement analysis</p>
+                <p className="text-slate-200">Detaila Analysis</p>
               </div>
               <div className="flex gap-2 items-center mb-2">
                 <FaCheckSquare />
-                <p className="text-slate-200">100% working dedication</p>
+                <p className="text-slate-200">Team Player</p>
               </div>
+           
             </div>
 
             <div>
@@ -163,16 +165,10 @@ const About = () => {
               </div>
               <div className="flex gap-2 items-center mb-2">
                 <FaCheckSquare />
-                <p className="text-slate-200">unlimited revision</p>
+                <p className="text-slate-200">Strong Commitment</p>
               </div>
-              <div className="flex gap-2 items-center mb-2">
-                <FaCheckSquare />
-                <p className="text-slate-200">before live preview</p>
-              </div>
-              <div className="flex gap-2 items-center mb-2">
-                <FaCheckSquare />
-                <p className="text-slate-200">client satisfaction</p>
-              </div>
+              
+              
             </div>
           </div>
         </div>

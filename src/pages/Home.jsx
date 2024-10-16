@@ -17,18 +17,22 @@ const Home = () => {
             Mohammed Arif
           </h3>
           <h3 className="text-4xl text-slate-300 font-black capitalize text-left mb-3 md:text-left md:text-[2.6rem] md:py-2">
-            I build website for client.
+            I build website for satisfaction.
           </h3>
 
           <p className="text-left text-[1.1rem] pt-3 pb-8 text-slate-400 md:text-left lg:text-xl">
-            I'm a full-stack web developer who specializes in building web
-            things. I'm focused on building UI design and development together.
-            I make 100% error-free website for client satisfaction which make me
-            awesome.
+            I'm a MERN stack web developer who specializes in building front-end
+            web developer. I make 100% error-free website for client
+            satisfaction which make me awesome.
           </p>
-          <button className="border-2 transition-all duration-500 rounded-lg border-[#0ea5e9] uppercase py-2 px-4 text-[#0ea5e9] hover:text-slate-900 hover:bg-[#0ea5e9] text-sm font-bold shadow-none hover:shadow-[0_0_25px_5px_#0ea5e9]">
+          <a
+            href="https://drive.google.com/uc?export=download&id=1DwZynKZFDYqOYpjoEsG5Qaws48erKveP"
+            download
+            className="border-2 transition-all duration-500 rounded-lg border-[#0ea5e9] uppercase py-2 px-4 text-[#0ea5e9] hover:text-slate-900 hover:bg-[#0ea5e9] text-sm font-bold shadow-none hover:shadow-[0_0_25px_5px_#0ea5e9]"
+            target="_blank"
+          >
             Download Resume
-          </button>
+          </a>
         </div>
         <div className="ml-12">
           <div className="w-[70%] container mx-auto mt-28 sm:w-[250px] md:w-[300px] lg:w-[450px] relative z-10">
@@ -39,9 +43,9 @@ const Home = () => {
       </div>
       <About />
       <Services />
-      <Showcase/>
-      <Reviews/>
-      <Contact/>
+      <Showcase />
+      <Reviews />
+      <Contact />
     </div>
   );
 };
