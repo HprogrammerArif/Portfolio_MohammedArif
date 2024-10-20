@@ -18,7 +18,7 @@ const Services = () => {
   return (
     <div>
       
-      <div className=" mt-32  flex items-center gap-2 text-3xl  overflow-hidden capitalize font-bold pl-1 w-[90%] md:w-[96%] mx-auto  border-b  text-slate-300 py-2 sm:text-2xl md:text-2xl xl:text-3xl mb-20 border-[#0ea5e9]">
+      <div className=" mt-12 md:mt-32  flex items-center gap-2 text-lg  overflow-hidden capitalize font-bold pl-1 w-[90%] md:w-[96%] mx-auto  border-b  text-slate-300 py-2 sm:text-2xl md:text-2xl xl:text-3xl mb-20 border-[#0ea5e9]">
         services
         <div>
           <Button

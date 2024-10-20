@@ -2,9 +2,15 @@ import { Button } from "../components/ui/moving-border";
 import img from "../assets/images/1.jpg";
 
 const Reviews = () => {
+  const text = `Vivamus sit amet turpis leo. Praesent varius eleifend elit, eu
+  dictum lectus consequat vitae. Etiam ut dolor id justo
+  fringilla finibus. Donec eget ultricies diam, eu molestie arcu. Etiam nec lacus
+  eu mauris cursus venenatis. Maecenas gravida urna vitae
+  accumsan feugiat. Vestibulum commodo, ante sit urna purus
+  rutrum sem.`;
   return (
     <div>
-      <div className=" mt-32  flex items-center gap-2 text-3xl  overflow-hidden capitalize font-bold pl-1 w-[90%] md:w-[96%] mx-auto  border-b  text-slate-300 py-2 sm:text-2xl md:text-2xl xl:text-3xl mb-20 border-[#0ea5e9]">
+      <div className=" mt-12 md:mt-32  flex items-center gap-2 text-xl  overflow-hidden capitalize font-bold pl-1 w-[90%] md:w-[96%] mx-auto  border-b  text-slate-300 py-2 sm:text-2xl md:text-2xl xl:text-3xl md:mb-20 border-[#0ea5e9]">
         client reviews
         <div>
           <Button
@@ -133,17 +139,12 @@ const Reviews = () => {
                 </div>
               </div>
               <div className="p-4 space-y-2 text-sm text-gray-400">
-                <p>
-                  Vivamus sit amet turpis leo. Praesent varius eleifend elit, eu
-                  dictum lectus consequat vitae. Etiam ut dolor id justo
-                  fringilla finibus.
-                </p>
-                <p>
-                  Donec eget ultricies diam, eu molestie arcu. Etiam nec lacus
-                  eu mauris cursus venenatis. Maecenas gravida urna vitae
-                  accumsan feugiat. Vestibulum commodo, ante sit urna purus
-                  rutrum sem.
-                </p>
+               
+                {/* Text (hidden initially, shown on hover) */}
+      <p >
+        {text}
+      </p>
+               
               </div>
             </div>
           </div>

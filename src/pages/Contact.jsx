@@ -2,6 +2,7 @@ import  { useState } from 'react';
 import emailjs from 'emailjs-com';
 import { Button } from '../components/ui/moving-border';
 import toast, { Toaster } from 'react-hot-toast';
+import register from "../assets/images/register.jpg"
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -39,7 +40,7 @@ const Contact = () => {
   };
   return (
     <div className="">
-       <div className=" mt-32  flex items-center gap-2 text-3xl  overflow-hidden capitalize font-bold pl-1 w-[90%] md:w-[96%] mx-auto  border-b  text-slate-300 py-2 sm:text-2xl md:text-2xl xl:text-3xl mb-20 border-[#0ea5e9]">
+       <div className=" mt-16 md:mt-32  flex items-center gap-2 text-3xl  overflow-hidden capitalize font-bold pl-1 w-[90%] md:w-[96%] mx-auto  border-b  text-slate-300 py-2 sm:text-2xl md:text-2xl xl:text-3xl mb-20 border-[#0ea5e9]">
         Contact
         <div>
           <Button
@@ -57,7 +58,7 @@ const Contact = () => {
             <h2 className="text-4xl font-bold text-[#0ea5e9] leading-tight lg:text-5xl">Let's talk!</h2>
             <div className="text-gray-400">Vivamus in nisl metus? Phasellus.</div>
           </div>
-          <img src="assets/svg/doodle.svg" alt="" className="p-6 h-52 md:h-64" />
+          <img src={register} alt="" className="p-6 h-52 md:h-64" />
         </div>
         <form noValidate="" className="space-y-6" onSubmit={handleSubmit}>
           <div>
